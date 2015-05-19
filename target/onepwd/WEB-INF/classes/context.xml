@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                http://www.springframework.org/schema/context
+                http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+        <property name="DriverClassName" value="com.mysql.jdbc.Driver"/>
+        <!--<property name="url" value="jdbc:mysql://10.170.192.131:3306/ryxdb?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true"/>
+        <property name="username" value="ryx"/>
+        <property name="password" value="ryx123qwe"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/ryxdb_dev?useUnicode=true&amp;characterEncoding=utf-8&amp;autoReconnect=true"/>
+        <property name="username" value="root"/>
+        <property name="password" value=""/>-->
+        <property name="url" value="jdbc:mysql://localhost:3306/onepwd?useUnicode=true&amp;amp;characterEncoding=utf-8&amp;amp;autoReconnect=true"/>
+        <property name="username" value="root"/>
+        <property name="password" value=""/>
+        <property name="maxActive" value="20"/>
+        <property name="initialSize" value="20"/>
+        <property name="maxWait" value="60000"/>
+        <property name="minIdle" value="2"/>
+        <property name="timeBetweenEvictionRunsMillis" value="3000"/>
+        <property name="minEvictableIdleTimeMillis" value="300000"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="testOnBorrow" value="false"/>
+        <property name="testOnReturn" value="false"/>
+    </bean>
+
+
+
+
+</beans>
