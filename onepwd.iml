@@ -11,9 +11,6 @@
         </webroots>
       </configuration>
     </facet>
-    <facet type="Spring" name="Spring">
-      <configuration />
-    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -25,24 +22,51 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Spring-4.1.6.RELEASE" level="project" />
-    <orderEntry type="library" name="Spring MVC-4.1.6.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-core:3.2.2.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: commons-logging:commons-logging:1.1.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-beans:3.2.2.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-context:3.2.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-aop:3.2.2.RELEASE" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-expression:3.2.2.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-jdbc:3.2.2.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-tx:3.2.2.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-web:3.2.2.RELEASE" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: aopalliance:aopalliance:1.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-aop:3.2.2.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-context-support:3.2.2.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:3.2.2.RELEASE" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.alibaba:fastjson:1.1.39" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.alibaba:druid:1.0.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax:javaee-web-api:7.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet:2.13" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.containers:jersey-container-servlet-core:2.13" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.core:jersey-common:2.13" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.ws.rs:javax.ws.rs-api:2.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.annotation:javax.annotation-api:1.2" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.bundles.repackaged:jersey-guava:2.13" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:hk2-api:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:hk2-utils:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2.external:aopalliance-repackaged:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:hk2-locator:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.javassist:javassist:3.18.1-GA" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:osgi-resource-locator:1.0.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.core:jersey-server:2.13" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.core:jersey-client:2.13" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2.external:javax.inject:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.media:jersey-media-multipart:2.13" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jvnet.mimepull:mimepull:1.9.3" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.jersey.ext:jersey-spring3:2.13" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:hk2:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:config-types:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:hk2-config:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:core:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jvnet:tiger-types:1.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2.external:bean-validator:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:hk2-runlevel:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:class-model:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2.external:asm-all-repackaged:2.3.0-b10" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.glassfish.hk2:spring-bridge:2.3.0-b10" level="project" />
   </component>
 </module>
+
