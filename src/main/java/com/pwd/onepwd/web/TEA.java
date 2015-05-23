@@ -1,4 +1,4 @@
-package com.onepwd.web;
+package com.pwd.onepwd.web;
 
 /**
  * Created by fanngyuan on 2/3/15.

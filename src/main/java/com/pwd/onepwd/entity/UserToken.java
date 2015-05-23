@@ -1,9 +1,11 @@
-package com.onepwd.entity;
+package com.pwd.onepwd.entity;
+
+import com.pwd.onepwd.entity.StringPK;
 
 /**
  * Created by CheerS17 on 5/21/15.
  */
-public class UserToken {
+public class UserToken extends StringPK {
 
     private long userId;
 

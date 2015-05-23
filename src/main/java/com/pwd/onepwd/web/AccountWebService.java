@@ -1,9 +1,10 @@
-package com.onepwd.web;
+package com.pwd.onepwd.web;
 
-import com.onepwd.entity.UserToken;
+import com.pwd.onepwd.entity.UserToken;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
-import javax.ws.rs.*;
+import com.pwd.onepwd.web.TEA;
+import javax.ws.rs.Path;
 import java.util.Base64;
 
 /**
